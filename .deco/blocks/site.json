@@ -45,6 +45,15 @@
     },
     {
       "__resolveType": "website/loaders/redirects.ts"
+    },
+    {
+      "__resolveType": "vtex/loaders/proxy.ts",
+      "extraPathsToProxy": [],
+      "includeSiteMap": [],
+      "excludePathsFromDecoSiteMap": [],
+      "includeScriptsToHead": {
+        "includes": []
+      }
     }
   ],
   "caching": {
