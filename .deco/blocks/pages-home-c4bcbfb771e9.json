@@ -48,17 +48,14 @@
       "title": "Featured Products",
       "cta": "/mono",
       "products": {
-        "__resolveType": "shopify/loaders/ProductList.ts",
+        "__resolveType": "vtex/loaders/intelligentSearch/productList.ts",
         "props": {
           "sort": "",
           "count": 12,
-          "query": "a"
-        },
-        "filters": {
-          "tags": [],
-          "productTypes": [],
-          "productVendors": [],
-          "variantOptions": []
+          "fuzzy": "automatic",
+          "collection": "RMT",
+          "hideUnavailableItems": false,
+          "similars": true
         }
       }
     },
